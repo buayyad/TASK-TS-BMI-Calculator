@@ -53,9 +53,7 @@ function getBMIStateByAge(BMI: number, age: number): HealthStatus {
   // Don't change this variable
   let BMIState: HealthStatus = "not healthy";
   // Write your code here 👇🏼
-  if (BMI >= 18.5 && BMI < 25) {
-    BMIState = "healthy";
-  }
+
   // Stop making changes here!
   return BMIState;
 }
